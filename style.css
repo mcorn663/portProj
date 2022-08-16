@@ -1,0 +1,137 @@
+html {
+    background: #cadeea;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topContainer h1 {
+    font-family: 'Lora', serif;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 80px;
+}
+
+.topContainer p {
+    font-family: 'Roboto', sans-serif;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+
+.mainContainer h2 {
+    align-items: left;
+}
+
+.mainProj {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+
+}
+
+.proj {
+    background-color: rgb(242, 246, 248);
+
+    width: 60vh;
+    height: 80vh;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #79848a;
+}
+
+.proj h3 {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.projPic {
+
+    width: 60vh;
+    height: 60vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+
+
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3d3d3e;
+    border-radius: 10px;
+}
+
+.proj:hover .overlay {
+    opacity: 3;
+}
+
+.overlayText {
+    color: rgb(239, 242, 244);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: block;
+}
+
+.footer {
+    background-color: #3d3d3e;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.footerUL {
+    list-style: none;
+
+}
+
+.footerLi {
+    color: rgb(239, 242, 244);
+
+}
